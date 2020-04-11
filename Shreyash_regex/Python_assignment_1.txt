@@ -1,0 +1,29 @@
+1. CPython is the original implementation of python, written in C
+     JPython is the same langiage but implemented using Java
+
+2. python2:
+     a. when two integers are divided, we get interger value
+     b. to store unicode string value, we need to defime them with "u"
+     c. the xrange() is used for iterations
+     d. it should be enclosed in notations
+   
+   python3:
+     a. when two integers are divided, we get a float value
+    b.default storing of string is unicode
+     c. range() function is used
+    d. enclosed in paranthesis
+
+3. ASCII- 
+     a. it uses 8-bit encoding
+     b. ascii represents 128 characters
+    c. it is stored as 8 byte
+    d.  not standardized
+
+    Unicode-
+     a. variable bit encoding
+      b. defines 2^21 characters
+     c. stored in byte sequences such as UTF-32 and UTF-8
+     d.  standardized
+
+
+

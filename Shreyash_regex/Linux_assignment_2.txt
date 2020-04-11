@@ -1,0 +1,44 @@
+1.
+in terminal type command: sudo gedit ~/.bashrc
+
+Search for umask:
+         If present change the current value to umask number
+
+Save and exit
+
+If not present, add the following line to end of document
+
+umask number
+Save and exit
+
+Now logout and login
+Check the umask value by command : umask
+
+
+2. open the file /etc/passwd in vipw editor
+   vipw /etc/passwd
+   sudo vipw -p
+then add a new user at the end by writing a line following the format of the previous user
+
+
+3. we can change the umask value by the command:
+    umask 0888
+
+4.
+open the file /etc/passwd in vipw editor
+   vipw /etc/passwd
+   sudo vipw -p
+add a new user and with a unique id. example:
+
+shreyash:x:1345: contind.....
+1st part is the username 
+3rd part is the userid
+
+5. chgrp command is used to change the group of a folder
+  sudo chgrp NEW_GROUPNAME foldername
+ 
+a. go to the folder cd /foldername/
+      vi /etc/group
+     you can check the group of the files present in the folder
+b. to change the group of folders and its files with a single command, 
+use the chgrp command recursively...for recursive use -r

@@ -1,0 +1,21 @@
+1. 
+yes "hello world" > abc.txt
+ press ctrl+c
+
+compress it with file format bzip2
+
+bzip2 abc.txt
+
+
+2.
+to unzip that file:
+command: bzip2 -d abc.bz2
+
+3. cat filename
+output redirection: file1 >filename.txt
+    cat filename.txt
+
+4. cat /etc/shells
+ valid login shells will be displayed
+type sh
+ then the password will be asked 

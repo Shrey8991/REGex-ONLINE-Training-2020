@@ -1,0 +1,27 @@
+1.
+>>> 3+4**6-9*10/2
+4054.0
+
+2.
+>>> vowels=['a','e','i','o','u']
+>>> count=0
+>>> for i in vowels:
+	if i== 'a' or 'i' or 'e' or 'o' or 'u':
+		count=count+1
+
+		
+>>> print(count)
+5
+
+
+3.
+>>> def area_triangle(b,h):
+	return((1/2)*b*h)
+
+>>> area_triangle(4,2)
+4.0
+
+4. import calender
+   yy=2014
+ mm=11
+print(calender.month(yy,mm))
